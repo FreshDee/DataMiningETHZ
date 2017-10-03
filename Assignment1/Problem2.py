@@ -40,11 +40,6 @@ def reduceCount(list_word_count_pairs):
                 except:
                     letter[key[0]] = 1
                 if(letter[key[0]]<=30):
-        #    try:
-        #        letter[word[0]]=letter[word[0]]+1
-        #    except:
-        #        letter[word[0]]=1
-        #if (letter[word[0]]<=30):
                     final[word] = count_word
     return final
 
